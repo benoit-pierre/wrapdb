@@ -320,6 +320,8 @@ class TestReleases(unittest.TestCase):
         elif name == 'directxmath':
             # DirectXMath source url contains only tag name without version
             return True
+        elif name == 'glib':
+            return True
         elif name == 'luajit':
             # LuaJIT source URL does not contain the version number.
             return True

@@ -1,10 +1,8 @@
 [wrap-file]
-directory = glib-2.80.3
-
-source_url = https://download.gnome.org/sources/glib/2.80/glib-2.80.3.tar.xz
-source_fallback_url = https://ftp.acc.umu.se/pub/gnome/sources/glib/2.80/glib-2.80.3.tar.xz
-source_filename = glib-2.80.3.tar.xz
-source_hash = 3947a0eaddd0f3613d0230bb246d0c69e46142c19022f5c4b1b2e3cba236d417
+directory = glib-pr-fix_some_windows_testsuite_failures
+source_url = https://gitlab.gnome.org/benoit-pierre/glib/-/archive/pr/fix_some_windows_testsuite_failures/glib-pr-fix_some_windows_testsuite_failures.tar.gz
+source_filename = glib-pr-fix_some_windows_testsuite_failures.tar.gz
+source_hash = aefed8770678f0738d6f81b6bc79978930b9c6c9e526e0523a600da95cd5b7ab
 
 [provide]
 dependency_names = gthread-2.0, gobject-2.0, gmodule-no-export-2.0, gmodule-export-2.0, gmodule-2.0, glib-2.0, gio-2.0, gio-windows-2.0, gio-unix-2.0
